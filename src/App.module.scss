@@ -1,0 +1,18 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    .header{
+        text-align: center;
+        
+    }
+    .tabContainer {
+        flex-basis:80%;
+    }
+    .tabLabel{
+        text-transform: capitalize;
+    }
+    .footer {
+        text-align: center;
+    }
+}
